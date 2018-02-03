@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+body {
+    margin: 0;
+}
+
+div.page-container {
+    margin: 0 auto;
+    padding: 0;
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); 
+.menu {
+    background-color: black;
+    left: -350px;
+    /* прячем меню */
+    height: 100%;
+    position: fixed;
+    width: 350px;
+}
+
+.background {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    white-space: nowrap;
+}
+
+.box div {
+    width: 45px;
+    display: inline-block;
+}
+
+.number {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    position: absolute;
+    top: 32px;
+}
+
+.menu ul {
+    position: absolute;
+    top: 40%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 20%;
+}
+
+.menu li {
+    font-family: "Open Sans", sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu .current a {
+    color: white;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.menu a {
+    color: #555;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.icon-instagram img {
+    width: 25px;
+}
+
+.icon-facebook img {
+    width: 25px;
+}
+
+.icon-instagram {
+    margin-left: 20px;
+}
+
+.icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.icon-menu img {
+    margin-right: 5px;
+    width: 25px;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    height: 80px;
+    z-index: 3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 0px;
+    background-color: black;
+}
+
+.header {
+  
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url('https://theknowitguy.com/wp-content/uploads/2017/07/2000-1.jpg');
+    width: 100%;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.text {
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 10px;
+    width:80%;
+    text-align:center; 
+    font-size: 10vw;
+    font-variant: small-caps;
+    justify-content: center;
+   
+    
+}
+
+.small-text {
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 10px;
+    width:70%;
+    text-align:center; 
+    font-size: 20px;
+    font-variant: small-caps;
+     margin-top:10%;
+    justify-content: center;
+}
+
+.small-text-2 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    letter-spacing: 10px;
+   width:70%;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align:center; 
+    justify-content: center;
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: white;
+    width: 100%;
+   
+    margin: 150px auto;
+}
+
+.welcome-text {
+    color: rgb(128, 128, 128);
+    font-family: 'Cinzel', serif;
+    margin:0 auto;
+    font-size: 60px;
+    font-variant: small-caps;
+    justify-content: center;
+    width: 30%;
+    line-height: 60px;
+    text-align: left;
+   
+   
+}
+
+a {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+}
+
+.welcome-article {
+     margin:0 auto;
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+   
+    text-align: left;
+    width: 35%;
+    line-height: 20px;
+   
+}
+
+.welcome-flower {
+    border:1px solid green;
+   margin-right:0;
+    width: 100px;
+    transform: scale(-1, 1);
+    filter: alpha(Opacity=25);
+    opacity: 0.25;
+}
+
+.welcome-signature {
+   
+    top: 410px;
+    right: 420px;
+    position: absolute;
+    width: 200px;
+}
+
+.granat {
+  
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    background-image: url('granat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gallery-main {
+    background: white;
+    color: white;
+    font-size: 60px;
+   
+    width: 100%;
+   
+    margin: 50px 0;
+    
+}
+
+
+
+.footer {
+    width: 100%;
+    background-color: rgba(220, 220, 220,0.5);
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.footer img {
+  
+    width: 50px;
+}
+
+.box-footer {
+    position: relative;
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+}
+
+.box-f {
+    position: relative;
+    justify-content: center;
+    height: 300px;
+    display: inline-block;
+}
+
+.box-f center {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    color: #666;
+}
+
+.box-f p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    height: 100%;
+    position: absolute;
+    color: #666;
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+html {
+	font-size: calc(5px + 0.4vw);
+}
+a {
+	text-decoration: none;
+}
+.intro {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.left {
+	float: left;
+	height:100%;
+   
+	width: 60%;
+	padding: 3rem 3rem 3rem 5rem;
+	display: table;
+}
+.left > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+span {
+  color: rgba(11, 7, 47, 0.90);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 4rem;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+	font-size: 8rem;
+	margin-bottom: 3rem;
+    color: #949494;
+}
+h1 + p {
+  color: #949494;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+p + a {
+  font-size: 1.6rem;
+  color: #000;
+}
+.slider {
+	float: right;
+	position: relative;
+	width: 40%;
+	height: 100%;
+}
+.slider li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	transition: clip .7s ease-in-out, z-index 0s .7s;
+	clip: rect(0, 100vw, 100vh, 100vw);
+	display: table;
+}
+.center-y {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+}
+h3 {
+     font-family: 'Julius Sans One', sans-serif;
+	font-size: 5rem;
+	font-style:normal;
+}
+h3 + a {
+     font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.6rem;
+	display: inline-block;
+	color: #fff;
+	margin-top: 2rem;
+}
+h3, h3 + a {
+	opacity: 0;
+	transition: opacity .7s 0s, transform .5s .2s;
+	transform: translate3d(0, 50%, 0);
+}
+li.current h3, li.current h3 + a {
+	opacity: 1;
+	transition-delay: 1s;
+	transform: translate3d(0, 0, 0);
+}
+li.current {
+	z-index: 1;
+	clip: rect(0, 100vw, 100vh, 0);
+}
+li.prev {
+	clip: rect(0, 0, 100vh, 0);
+}
+.slider nav {
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+nav a {
+	display: inline-block;
+	border-radius: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+  min-width: 12px;
+  min-height: 12px;
+	background: #fff;
+	margin: 0 1rem;
+  transition: transform .3s;
+}
+a.current_dot {
+	transform: scale(1.4);
+}
+@media (min-width: 375px) {
+    .box-footer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .box-f {
+        width: 80%;
+    }
+
+    .footer {
+        align-items: center;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+	.left {
+		width: 100%;
+		height: 30%;
+	}
+	.slider {
+		width: 100%;
+		height: 70%;
+	}
+    .welcome {
+        flex-direction:column;
+    }
+    .welcome-text {text-align:center;
+    width:70%;}
+     .welcome-article {
+         margin-top:20px;
+         text-align:center;
+    width:70%;}
+ 
+}

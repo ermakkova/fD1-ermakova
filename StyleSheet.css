@@ -1,0 +1,683 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+/* sm-устройства (больше или равно 576px) */
+
+    body {
+        margin: 0;
+    }
+     div.page-container {
+        margin: 0 auto;
+        padding: 0;
+        align-content: stretch;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .title-box {
+        margin-top:83px;
+        display: flex;
+        
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .posts {
+        width: 100%;
+        position: relative;
+    }
+
+    .posts-small-text {
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-top:10%;
+         margin-bottom:10%;
+       
+    }
+
+    .posts-title {
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        font-size: 3vw;
+        margin-top:5%;
+        width: 80%;
+    }
+    .line {
+        margin-top:5%;
+        margin-bottom:5%;
+            font-family: 'Julius Sans One', sans-serif;
+             
+    }
+.post-box {
+    position: relative;
+    display: flex;
+   width:100%;
+   padding:3%;
+    justify-content: space-between;
+    
+}
+.column { display:flexbox;
+          flex-direction:column;
+    
+         justify-content:center;
+         align-items:center;
+        
+}
+    .home {
+        margin-bottom:10px;
+       
+        
+    }
+
+    .home-article1 p{
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align:left;
+       
+        
+       
+    }
+    .home-article2 p {
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+       text-align:left;    
+    }
+
+    .home-article1 {
+      
+        margin-bottom:10px;
+        
+        font-family: "Open Sans", sans-serif;
+         width:93%;
+        color: grey;
+        letter-spacing: 3px;
+        line-height: 22px;
+    }
+    .home-article2 {
+         
+     
+        font-family: "Open Sans", sans-serif;
+         width:93%;
+        
+        color: grey;
+        letter-spacing: 3px;
+        line-height: 22px;
+        margin-bottom:10px;
+    }
+
+   .t1, .t2, .t3 {
+      
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        color: grey;
+        width: 550px;
+    }
+
+   
+
+    .photo {
+        margin-bottom:10px;
+      
+    }
+
+    .vine {
+         margin-top:10px;
+        margin-bottom:10px;
+       
+    }
+
+    .background-img {
+        opacity: 0.3;
+        width: 350px;
+       
+        right: 0px;
+        top: 200px;
+    }
+
+    .promise {
+        position: relative;
+        width: 100%;
+        
+    }
+.cows {  
+    display: flex;
+    justify-content:flex-end;
+   
+    flex-direction: row;
+    
+    background-image: url('cows.jpg');
+    width: 100%;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+    .square {
+        margin:10% 0;
+        margin-right:3%;
+        width:30%;
+        background-color: white;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction:column;
+     
+    }
+    .sq-title {
+          font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        
+        letter-spacing:2px;
+    }
+    .square i {
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+       
+        color:grey;
+     
+    }
+    .sq-sm-t {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+       
+        
+        color:grey;
+    }
+  
+
+
+    .philosophy {
+        width: 100%;
+        position: relative;
+         display: flex;
+         flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .title-box1 {
+       
+        display: flex;
+       
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+.column-hor {width: 90%;
+              display: flex;
+         flex-direction:row;
+        justify-content: space-between;
+       
+        margin-top:20px;
+}
+    .sm-title-ph {
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+    }
+    .title-ph {
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        font-size: 35px;
+        width: 700px;
+        line-height: 40px;
+
+    }
+    .box1 { position:relative;
+              display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction:column;
+        width:30vw; 
+        height:30vw;
+        
+       
+    }
+    .ph-t1 { font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+       letter-spacing:2px;  
+      
+    }
+    .ph-line1 {  
+    }
+    .ph-text1 {
+        font-family: "Open Sans", sans-serif;
+         font-size: 17px;
+       
+       width:270px;
+       color:grey;    
+    }
+ 
+    .ph-t2 { font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+       letter-spacing:2px;  
+     
+    }
+    .ph-line2 { 
+    }
+    .ph-text2 {
+        font-family: "Open Sans", sans-serif;
+         font-size: 17px;
+       
+       width:270px;
+       color:grey; 
+       
+    }
+    
+      .ph-t3 { font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+       letter-spacing:2px;  
+    
+    }
+    .ph-line3 { 
+    }
+    .ph-text3 {
+        font-family: "Open Sans", sans-serif;
+         font-size: 17px;
+       
+       width:270px;
+       color:grey; 
+     
+    }
+
+    .hands {
+        margin-top:10px;
+        width:30vw;
+       height:30vw;
+       
+    }
+
+    .tomatoes {
+         margin-top:10px;
+      width:30vw;
+       height:30vw;
+    }
+
+    .pasta {
+     height:30vw;
+    
+    }
+
+ 
+
+    .corn {
+     height:30vw;
+    }
+   
+    .lady {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        position: relative;
+    }
+
+    .lady-title {
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+        font-size: 50px;
+       
+    }
+
+    .lady-article {
+        font-family: "Open Sans", sans-serif;
+        width: 600px;
+        font-size: 14px;
+        margin-bottom:20px;
+        letter-spacing: 2px;
+        color: grey;
+        text-align: center;
+    }
+
+    .lady-img {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image: url('https://demo.yootheme.com/themes/joomla/2017/copper-hill/templates/yootheme/cache/our-story-marie-williams-8e8f1b7c.jpg');
+    width: 100%;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .sign {
+        margin-top:20px;
+    }
+
+    .name {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin-top:20px;
+        letter-spacing: 2px;
+        color: grey;
+    }
+
+    .reservation {
+        border:1px solid black;
+        position: relative;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        
+    }
+
+    .res-text-b {
+        font-family: 'Julius Sans One', sans-serif;
+        text-transform: uppercase;
+       
+    }
+
+    .res-text-s1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        
+        width: 400px;
+        text-align: center;
+        color: grey;
+    }
+
+    .res-text-s2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        
+        width: 400px;
+        text-align: center;
+        color: grey;
+    }
+
+    .button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        
+        width: 160px;
+        height: 60px;
+        color: white;
+        background-color: black;
+    }
+
+        .button:hover {
+            width: 160px;
+            height: 60px;
+            background-color: white;
+            border: 1px solid black;
+            color: grey;
+        }
+
+
+
+    .footer {
+        width: 100%;
+        height: 350px;
+        background-color: rgba(220, 220, 220,0.5);
+        overflow: hidden;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display:flex;
+        justify-content:center;
+    }
+        .footer img { position:absolute;
+                      width:50px;
+                   left:49%;
+                   margin-top:110px;
+                 
+        }
+
+    .menu {
+        background-color: black;
+        left: -350px; /* прячем меню */
+        height: 100%;
+        position: fixed;
+        width: 350px;
+    }
+
+    /* Basic CSS */
+
+    .background {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .box {
+        white-space: nowrap;
+    }
+
+        .box div {
+            width: 45px;
+            display: inline-block;
+        }
+
+         .box-footer{
+              position:relative;
+    display: flex;
+   
+     border:1px solid black;
+     width:74%;  
+      justify-content: space-between; 
+    
+ 
+         
+    }
+
+        .box-f {
+        position:relative;
+         
+         justify-content:center;
+            top:180px;
+           height:300px;
+            display: inline-block;
+   border: 1px solid black;
+            width:20%;
+           
+           
+  
+   
+
+    
+        }
+            .box-f center { 
+                font-family: "Open Sans", sans-serif;
+        
+        font-size: 20px;
+        border:1px solid black;
+      
+        color:#666;
+            }
+            .box-f p { 
+             
+                 border:1px solid black;
+                  font-family: "Open Sans", sans-serif;
+                  font-size: 15px;
+        width:100%;
+        letter-spacing:2px;
+        height:100%;
+        position:absolute;
+        color:#666;
+         text-align: center;
+         
+      
+     
+            }
+    .number {
+        font-family: "Open Sans", sans-serif;
+        color: black;
+        position: absolute;
+        top: 32px;
+       
+        
+    }
+
+    .menu ul {
+        position: absolute;
+        top: 40%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        left: 20%;
+    }
+
+    .menu li {
+        font-family: "Open Sans", sans-serif;
+        line-height: 45px;
+        padding-bottom: 3px;
+        padding-left: 20px;
+        padding-top: 3px;
+    }
+
+    .menu .current a {
+        color: white;
+    }
+
+    .menu a:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu a {
+        color: #555;
+        font-size: 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .icon-close {
+        cursor: pointer;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .icon-instagram img {
+        width: 25px;
+    }
+
+    .icon-facebook img {
+        width: 25px;
+    }
+
+    .icon-instagram {
+        margin-left: 20px;
+    }
+
+    .icon-menu {
+        color: #fff;
+        cursor: pointer;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+        padding-top: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .icon-close img {
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    .icon-menu img {
+        margin-right: 5px;
+        width: 25px;
+    }
+
+   
+
+    .nav {
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+        position: fixed;
+        height: 80px;
+        z-index: 3;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 0px;
+        background-color: black;
+    }
+@media (min-width: 375px) {
+    }
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (max-width: 768px) {
+    .post-title {width:80%;
+    }
+    .post-box {
+        flex-direction:column;
+    }
+    .column-hor {  flex-direction:column;
+                   justify-content:center;
+                   align-items:center;
+    }
+    .corn { height:40vw;
+    }
+    .pasta {height:40vw;
+    }
+    .hands {    width:60vw;
+       height:60vw;
+    }
+    .tomatoes {width:60vw;
+       height:60vw;
+    }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media (max-width: 992px) {
+ .post-box {
+        flex-direction:column;
+      
+    }
+    
+    
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+   
+}
+
