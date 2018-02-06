@@ -1,28 +1,250 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+﻿/* xs - устройства (до 576px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 /* sm-устройства (больше или равно 576px) */
+@media (min-width: 375px) {
+
+    
+    .posts {height:1800px;
+    }
+    .home-article1 {left:520px;
+                     width: 401px;
+        font-size: 10px;
+    }
+     .home-article2 {width: 401px;
+        top: 1120px;
+         font-size: 10px;
+    }
+    .home {
+        height: 530px;
+    }
+
+    .photo {
+        
+        height: 250px;
+        top:980px;
+        right:70px;
+    }
+
+    .vine {
+        top:1320px;
+        height: 250px;
+        right: 70px;
+    }
+     .t1 {
+        top: 1060px;
+        left: 83px;
+    }
+    .t2 {
+        top: 1260px;
+        right: -80px;
+    }
+    .t3 {
+        top: 1592px;
+        right: -80px;
+    }
+   
+    .cows-img {
+        width: 100%;
+        min-height: 900px;
+        position: relative;
+        background-image: url('cows.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .square { 
+        top:-755px;
+        width:401px;
+       height:600px;
+        left: 500px;
+    }
+     .square i {   width:380px;
+        }
+      .sq-sm-t {top: 400px;
+    }
+    .philosophy {height: 1500px;
+    }
+      .box1 { top:-110px;
+        right:-620px;
+    }
+      .box2 {  top:180px;
+       left:-270px;
+    }
+      .box3 {top:480px;
+       right:30px;
+    }
+    .hands { height:270px;
+           
+    }
+    .tomatoes { height:270px;
+                left:370px;
+    }
+    .pasta { height:270px;
+             top:787px;
+             left:370px;
+             width:530px;
+    }
+    .corn {height:270px;
+           top:1070px;
+    }
+    .lady { height: 1100px;
+   
+    }
+    .lady-img {  
+        top:500px;
+        width:825px;
+    }
+    .sign {top:950px;
+            left:43%;
+             width:200px;
+    }
+
+}
+
+/* md-устройства (больше или равно 768px) */
+@media (min-width: 768px) {
+  /* CSS для: 768px <= ширины <= 991px */
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media (min-width: 992px) {
+  /* CSS для: 992px <= ширины <= 1119px */
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+    .home {
+        height: 800px;
+    }
+
+    .photo {
+        height: 350px;
+        top: 980px;
+        right: 83px;
+    }
+
+    .vine {
+        height: 350px;
+        top: 1420px;
+        right: 83px;
+    }
+
+    .posts {
+        height: 2000px;
+    }
+    .home-article1 {
+        left: 710px;
+        width: 550px;
+        font-size: 15px;
+    }
+    .home-article2 {width: 550px;
+        top: 1460px;
+        font-size: 15px;
+    }
+     .t1 {
+        top: 1320px;
+        left: 83px;
+    }
+    .t2 {
+        top: 1350px;
+        right: 87px;
+    }
+    .t3 {
+        top: 1792px;
+        right: 87px;
+    }
+    .cows-img {
+        width: 100%;
+        min-height: 900px;
+        position:relative;
+        background-image:url('cows.jpg');
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+    }
+    .cows {position:relative;
+    }
+
+    .square {
+        width: 600px;
+        height: 600px;
+        top: -750px;
+          left: 674px;
+    }
+        .square i {   width:550px;
+        }
+    .sq-sm-t {top: 380px;
+    }
+
+    .hands {
+        height: 400px;
+    }
+
+    .tomatoes {
+        height: 400px;
+        left: 500px;
+    }
+    .box1 { top:-250px;
+        right:-780px;
+    }
+    .box2 { top:160px;
+       left:-400px;
+    }
+    .box3 {    top:590px;
+       right:-70px;
+    }
+
+    .pasta {
+        height: 400px;
+        top: 917px;
+        left: 500px;
+        width: 775px;
+    }
+
+    .corn {
+        height: 400px;
+        top: 1334px;
+    }
+
+    .philosophy {
+        height: 1900px;
+    }
+
+    .lady {
+        height: 1300px;
+    }
+
+    .lady-img {
+        top: 500px;
+        width: 1180px;
+    }
+
+    .sign {
+        top: 1100px;
+        left: 43%;
+        width: 245px;
+    }
+
+    .res-text-b {
+        font-size: 35px;
+    }
+}
+
 
     body {
         margin: 0;
     }
-     div.page-container {
-        margin: 0 auto;
-        padding: 0;
-        align-content: stretch;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-    }
 
     .title-box {
-        margin-top:83px;
         display: flex;
-        
-        flex-direction:column;
         justify-content: center;
         align-items: center;
         text-align: center;
-       
+        position: relative;
     }
 
     .posts {
@@ -34,85 +256,72 @@
         font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        margin-top:10%;
-         margin-bottom:10%;
-       
+        position: absolute;
+        top: 200px;
     }
 
     .posts-title {
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
-        font-size: 3vw;
-        margin-top:5%;
-        width: 80%;
+        font-size: 35px;
+        position: absolute;
+        top: 270px;
+        width: 800px;
     }
-    .line {
-        margin-top:5%;
-        margin-bottom:5%;
+    .line {position: absolute;
             font-family: 'Julius Sans One', sans-serif;
-             
+             top: 400px;
     }
-.post-box {
-    position: relative;
-    display: flex;
-   width:100%;
-   padding:3%;
-    justify-content: space-between;
-    
-}
-.column { display:flexbox;
-          flex-direction:column;
-    
-         justify-content:center;
-         align-items:center;
-        
-}
+
     .home {
-        margin-bottom:10px;
-       
-        
+        top: 500px;
+        left: 83px;
+        position: absolute;
     }
 
     .home-article1 p{
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         font-size: 20px;
-        text-align:left;
-       
-        
-       
+        position: absolute;
+        top: -70px;
+        width: 400px;
+        left: 0px;
     }
     .home-article2 p {
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         font-size: 20px;
-       text-align:left;    
+        position: absolute;
+        top: -40px;
+        width: 400px;
+        left: 0px;
     }
 
     .home-article1 {
       
-        margin-bottom:10px;
-        
+        top: 560px;
+        position: absolute;
         font-family: "Open Sans", sans-serif;
-         width:93%;
+
+    
         color: grey;
         letter-spacing: 3px;
         line-height: 22px;
     }
     .home-article2 {
          
-     
+        position: absolute;
         font-family: "Open Sans", sans-serif;
-         width:93%;
         
+        left: 83px;
         color: grey;
         letter-spacing: 3px;
         line-height: 22px;
-        margin-bottom:10px;
     }
 
    .t1, .t2, .t3 {
-      
+        position: absolute;
         font-family: "Open Sans", sans-serif;
         font-size: 15px;
         color: grey;
@@ -122,20 +331,18 @@
    
 
     .photo {
-        margin-bottom:10px;
-      
+        position: absolute;
     }
 
     .vine {
-         margin-top:10px;
-        margin-bottom:10px;
-       
+        
+        position: absolute;
     }
 
     .background-img {
         opacity: 0.3;
         width: 350px;
-       
+        position: absolute;
         right: 0px;
         top: 200px;
     }
@@ -143,55 +350,41 @@
     .promise {
         position: relative;
         width: 100%;
-        
+        height: 900px;
     }
-.cows {  
-    display: flex;
-    justify-content:flex-end;
-   
-    flex-direction: row;
-    
-    background-image: url('cows.jpg');
-    width: 100%;
-    min-height: 700px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-}
 
     .square {
-        margin:10% 0;
-        margin-right:3%;
-        width:30%;
+     
+     
         background-color: white;
         z-index: 2;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        flex-direction:column;
+        position: relative;
      
     }
     .sq-title {
           font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 12px;
-        
+        position: absolute;
+        top: 220px;
         letter-spacing:2px;
     }
     .square i {
         font-family: "Open Sans", sans-serif;
         font-size: 25px;
-       
+        position: absolute;
+        top: 270px;
         color:grey;
      
     }
     .sq-sm-t {
         font-family: "Open Sans", sans-serif;
         font-size: 13px;
-       
+        position: absolute;
         
         color:grey;
     }
@@ -202,39 +395,24 @@
         width: 100%;
         position: relative;
          display: flex;
-         flex-direction:column;
         justify-content: center;
         align-items: center;
         text-align: center;
 
     }
-    .title-box1 {
-       
-        display: flex;
-       
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-       
-    }
-.column-hor {width: 90%;
-              display: flex;
-         flex-direction:row;
-        justify-content: space-between;
-       
-        margin-top:20px;
-}
     .sm-title-ph {
         font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        
+        position: absolute;
+        top:170px;
     }
     .title-ph {
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         font-size: 35px;
+        position: absolute;
+        top:280px;
         width: 700px;
         line-height: 40px;
 
@@ -244,94 +422,113 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        flex-direction:column;
-        width:30vw; 
-        height:30vw;
-        
+        width:350px;
+        height:350px;
        
     }
     .ph-t1 { font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        
+        position: absolute;
        letter-spacing:2px;  
-      
+       top:110px;
     }
-    .ph-line1 {  
+    .ph-line1 { position: absolute;
+                top:140px; 
     }
     .ph-text1 {
         font-family: "Open Sans", sans-serif;
          font-size: 17px;
-       
+        position: absolute;
        width:270px;
-       color:grey;    
+       color:grey; 
+       top:180px; 
     }
- 
+     .box2 { position:relative;
+              display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:350px;
+        height:350px;
+       
+    }
     .ph-t2 { font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        
+        position: absolute;
        letter-spacing:2px;  
-     
+       top:110px;
     }
-    .ph-line2 { 
+    .ph-line2 { position: absolute;
+                top:140px; 
     }
     .ph-text2 {
         font-family: "Open Sans", sans-serif;
          font-size: 17px;
-       
+        position: absolute;
        width:270px;
        color:grey; 
-       
+       top:180px; 
     }
+     .box3 { position:relative;
+              display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:350px;
+        height:350px;
     
+    }
       .ph-t3 { font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 15px;
-        
+        position: absolute;
        letter-spacing:2px;  
-    
+       top:110px;
     }
-    .ph-line3 { 
+    .ph-line3 { position: absolute;
+                top:140px; 
     }
     .ph-text3 {
         font-family: "Open Sans", sans-serif;
          font-size: 17px;
-       
+        position: absolute;
        width:270px;
        color:grey; 
-     
+       top:180px; 
     }
 
     .hands {
-        margin-top:10px;
-        width:30vw;
-       height:30vw;
-       
+        position: absolute;
+        top: 500px;
+        left: 83px;
     }
 
     .tomatoes {
-         margin-top:10px;
-      width:30vw;
-       height:30vw;
+        position: absolute;
+        top: 500px;
     }
 
     .pasta {
-     height:30vw;
-    
+        position: absolute;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
  
 
     .corn {
-     height:30vw;
+        position: absolute;
+        left: 83px;
     }
-   
+
     .lady {
         justify-content: center;
         align-items: center;
         display: flex;
-        flex-direction:column;
         width: 100%;
         position: relative;
     }
@@ -340,67 +537,60 @@
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
         font-size: 50px;
-       
+        position: absolute;
+        top: 10px;
     }
 
     .lady-article {
         font-family: "Open Sans", sans-serif;
         width: 600px;
         font-size: 14px;
-        margin-bottom:20px;
+        position: absolute;
+        top: 160px;
         letter-spacing: 2px;
         color: grey;
         text-align: center;
     }
 
     .lady-img {
-       display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    background-image: url('https://demo.yootheme.com/themes/joomla/2017/copper-hill/templates/yootheme/cache/our-story-marie-williams-8e8f1b7c.jpg');
-    width: 100%;
-    min-height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+        position: absolute;
+        left: 83px;
     }
 
     .sign {
-        margin-top:20px;
+        position: absolute;
     }
 
     .name {
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
-        margin-top:20px;
+        position: absolute;
+        top: 1190px;
         letter-spacing: 2px;
         color: grey;
     }
 
     .reservation {
-        border:1px solid black;
         position: relative;
         justify-content: center;
-        flex-direction:column;
         align-items: center;
         display: flex;
         width: 100%;
-        
+        height: 600px;
     }
 
     .res-text-b {
         font-family: 'Julius Sans One', sans-serif;
         text-transform: uppercase;
-       
+        position: absolute;
+        top: 150px;
     }
 
     .res-text-s1 {
         font-family: "Open Sans", sans-serif;
         font-size: 13px;
-        
+        position: absolute;
+        top: 225px;
         width: 400px;
         text-align: center;
         color: grey;
@@ -409,7 +599,8 @@
     .res-text-s2 {
         font-family: "Open Sans", sans-serif;
         font-size: 13px;
-        
+        position: absolute;
+        top: 400px;
         width: 400px;
         text-align: center;
         color: grey;
@@ -422,7 +613,8 @@
         font-family: "Open Sans", sans-serif;
         text-transform: uppercase;
         font-size: 13px;
-        
+        position: absolute;
+        top: 300px;
         width: 160px;
         height: 60px;
         color: white;
@@ -621,7 +813,15 @@
         width: 25px;
     }
 
-   
+    div.page-container {
+        margin: 0 auto;
+        padding: 0;
+        align-content: stretch;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
 
     .nav {
         background-color: white;
@@ -640,44 +840,4 @@
         right: 0px;
         background-color: black;
     }
-@media (min-width: 375px) {
-    }
-
-/* md-устройства (больше или равно 768px) */
-@media screen and (max-width: 768px) {
-    .post-title {width:80%;
-    }
-    .post-box {
-        flex-direction:column;
-    }
-    .column-hor {  flex-direction:column;
-                   justify-content:center;
-                   align-items:center;
-    }
-    .corn { height:40vw;
-    }
-    .pasta {height:40vw;
-    }
-    .hands {    width:60vw;
-       height:60vw;
-    }
-    .tomatoes {width:60vw;
-       height:60vw;
-    }
-}
-
-/* lg-устройства (больше или равно 992px) */
-@media (max-width: 992px) {
- .post-box {
-        flex-direction:column;
-      
-    }
-    
-    
-}
-
-/* xl-устройства (больше или равно 1200px) */
-@media (min-width: 1200px) {
-   
-}
 
